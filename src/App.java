@@ -73,7 +73,25 @@ public class App {
         // ->> DESAFIO 4:
         /* ---------------------------------------------- */
 
-        /* ******* AINDA SEM CONCLUSÕES, COMMIT QUANDO ENCONTRAR A SOLUÇÃO ******* */
+        /* 
+        
+         - Ligar dois dos três interruptores.
+             Passar pelas salas.
+
+         - Desligar um dos dois interruptores acionados anteriormente
+             Passar pelas salas
+
+        Conclusão: 
+        
+        Na primeira ida, 2 interruptores acionados acendem 2 lampadas(primeira ida) - 
+            - A lâmpada que estiver apagada com 2 interruptores ligados, é controlada pelo interruptor desligado(encontramos uma, restam duas)
+        Desativar um dos interruptores acionados apagará uma lâmpada que anteriormente estava acesa (segunda ida)
+            - A lâmpada que estiver apagada é controlada pelo interruptor desligado(dos dois que anteriormente estavam acionados) e a que estiver acesa
+            é controlada pelo interruptor que continuou acionado.
+
+        [DÚVIDA]: Como você faria para descobrir, usando apenas """"duas idas até *uma* das salas das lâmpadas""", qual interruptor controla cada lâmpada?
+        
+        */
 
         /* ---------------------------------------------- */
         // ->> DESAFIO 5:
